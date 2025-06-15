@@ -1,56 +1,95 @@
+
 # 🤖 Trợ Lý Logic – Dự đoán hành động từ thời tiết và cảm xúc
 
-Ứng dụng này sử dụng mạng nơ-ron nhân tạo (MLP) kết hợp với biểu diễn logic để **dự đoán hành động của con người** (như đi chơi hay nghỉ ngơi) dựa vào **thời tiết** và **tâm trạng**. Giao diện được xây dựng bằng **Streamlit**, hỗ trợ nhập ngôn ngữ tự nhiên bằng tiếng Việt.
+Ứng dụng Streamlit sử dụng kỹ thuật **xử lý ngôn ngữ tự nhiên (NLP)** kết hợp với **mạng nơ-ron nhân tạo (MLP)** để dự đoán hành động của người dùng (đi chơi / nghỉ ngơi) dựa trên mô tả ngắn về **thời tiết** và **tâm trạng**.
 
 ---
 
 ## 🧠 Tính năng chính
 
-- ✅ Dự đoán hành động dựa trên thời tiết và cảm xúc.
-- ✅ Phân tích logic với các phép AND, OR, NOT, XOR.
-- ✅ Giao diện chat tương tác và giải thích quyết định.
-- ✅ Biểu đồ thống kê dữ liệu và loss qua từng epoch.
-- ✅ Mô hình huấn luyện bằng PyTorch, có khả năng lưu lại trọng số và tái sử dụng.
+- Nhập mô tả tình huống bằng tiếng Việt
+- Mô hình MLP học từ đặc trưng đã mã hóa
+- Phân tích biểu thức logic (AND, OR, NOT, XOR)
+- Giải thích quyết định dự đoán theo cả logic và học máy
+- Giao diện tương tác trực quan, dễ sử dụng
 
 ---
 
-## 🗃️ Cấu trúc dữ liệu
+## 🗃️ Dữ liệu
 
-Các tệp CSV chứa các cột chính như:
+Dữ liệu gồm các mô tả về thời tiết, tâm trạng và hành động mong muốn. Ví dụ:
 
-| weather  | mood         | action     | explanation                     |
-|----------|--------------|------------|----------------------------------|
-| nắng     | rất muốn     | đi chơi    | Trời đẹp, tâm trạng tốt...       |
-| âm u     | mệt          | nghỉ ngơi  | Không khí u ám, cơ thể mệt mỏi… |
-
-Mã nguồn sẽ mã hóa các cột thành số để huấn luyện mô hình MLP.
+| weather  | mood       | action     | explanation                        |
+|----------|------------|------------|------------------------------------|
+| nắng     | rất muốn   | đi chơi    | Trời đẹp, tâm trạng tốt...         |
+| âm u     | mệt        | nghỉ ngơi  | Không khí u ám, cơ thể mệt mỏi…    |
 
 ---
 
 ## 🧮 Mô hình học máy
 
-- Mô hình: **Multi-Layer Perceptron (MLP)**
-- Hàm mất mát: `CrossEntropyLoss` (có trọng số nếu mất cân bằng)
-- Tối ưu hóa: `Adam`
-- Huấn luyện trong 500 epoch
-- Accuracy hiện tại trên tập test: **~94–97%**
+- Mô hình: Multi-Layer Perceptron (MLP)
+- Đầu vào: thời tiết, tâm trạng (mã hóa), đặc trưng logic
+- Tăng cường với các biến như `is_weather_good`, `logic_and`, `logic_xor`...
+- Độ chính xác ~94–97% trên tập test
+- Trọng số được lưu ở `mlp_model.pth`
 
 ---
 
 ## 🚀 Cách chạy ứng dụng
 
-### ✅ Yêu cầu
-- Python 3.8+
-- pip
-- Streamlit
-
+### 1. Cài đặt thư viện
 
 ```bash
-python -m venv venv
-venv\Scripts\activate      # Windows
-# hoặc
-source venv/bin/activate  # macOS/Linux
+pip install -r requirements.txt
+```
 
-- pip install -r requirements.txt
+### 2. Chạy ứng dụng
 
-- streamlit run main.py
+```bash
+streamlit run main.py
+# Hoặc bản có biểu đồ loss:
+streamlit run main2.py
+```
+
+Sau đó truy cập `http://localhost:8501` trên trình duyệt.
+
+---
+
+## 📋 Cấu trúc chính
+
+| File               | Mô tả                                     |
+|--------------------|--------------------------------------------|
+| `main.py`          | Giao diện chính, phân tích logic sâu       |
+| `main2.py`         | Giao diện + biểu đồ loss                   |
+| `data.csv`         | Dữ liệu gốc                                |
+| `data2.csv`        | Dữ liệu lọc (chỉ gồm đi chơi / nghỉ ngơi)  |
+| `mlp_model.pth`    | File lưu mô hình đã huấn luyện             |
+| `losses.pkl`       | File lưu loss các epoch (main2.py)         |
+| `requirements.txt` | Thư viện cần thiết                         |
+
+---
+
+## 🧠 Các đặc trưng logic được sử dụng
+
+| Biến            | Ý nghĩa                                      |
+|-----------------|-----------------------------------------------|
+| is_weather_good | Trời có đẹp hay không (nắng, đẹp, nắng nhẹ)   |
+| is_mood_positive| Tâm trạng tích cực (vui, muốn, hứng thú)     |
+| logic_and       | Cả trời đẹp và tâm trạng tốt                 |
+| logic_or        | Một trong hai điều kiện đúng                 |
+| logic_xor       | Chỉ một điều kiện đúng (cân nhắc)            |
+
+---
+
+## 📈 Biểu diễn mô hình
+
+Ứng dụng hiển thị **cấu trúc mạng MLP bằng Graphviz**, giúp người học dễ hình dung kiến trúc học sâu.
+
+---
+
+## 👤 Tác giả
+
+Nguyễn Viết Tiến  
+Đồ án học phần: Xử lý Ngôn ngữ Tự nhiên & Trí tuệ Nhân tạo
+
