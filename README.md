@@ -44,7 +44,6 @@ Mã nguồn sẽ mã hóa các cột thành số để huấn luyện mô hình 
 - pip
 - Streamlit
 
-### 🔧 Bước 1: Tạo môi trường ảo (tùy chọn)
 
 ```bash
 python -m venv venv
@@ -52,8 +51,6 @@ venv\Scripts\activate      # Windows
 # hoặc
 source venv/bin/activate  # macOS/Linux
 
-### 📦 Bước 2: Cài đặt thư viện
 - pip install -r requirements.txt
 
-### ▶️ Bước 3: Chạy ứng dụng
 - streamlit run main.py
