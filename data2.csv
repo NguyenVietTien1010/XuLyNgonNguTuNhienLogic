@@ -1,0 +1,196 @@
+weather,mood,action,explanation
+gió to,buồn,0,"Bạn đang buồn, thời tiết gió to không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+mưa,không muốn,0,"Bạn không muốn đi và trời mưa, nghỉ ngơi là hợp lý."
+nhiều mây,muốn,0,"Bạn muốn đi nhưng thời tiết nhiều mây không thuận lợi, nên ở nhà nghỉ ngơi."
+gió to,không muốn,0,"Bạn không muốn đi và trời gió to, nghỉ ngơi là hợp lý."
+nắng,vui,1,Trời nắng và bạn vui vẻ – hãy tận hưởng ngày đẹp trời!
+nắng,muốn,1,Thời tiết nắng và bạn muốn đi – hãy tận hưởng!
+mưa,muốn,0,"Bạn muốn đi nhưng trời mưa không thuận lợi, nên ở nhà nghỉ ngơi."
+nắng,buồn,0,"Bạn đang buồn, thời tiết nắng không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+nhiều mây,không muốn,0,"Bạn không muốn đi và trời nhiều mây, nghỉ ngơi là hợp lý."
+mưa,chán,0,"Bạn đang chán, thời tiết mưa không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+nhiều mây,vui,1,Tâm trạng bạn đang vui và trời nhiều mây – một dịp tốt để ra ngoài thư giãn!
+mưa,buồn,0,"Bạn đang buồn, thời tiết mưa không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+gió to,muốn,0,"Bạn muốn đi nhưng thời tiết gió to không thuận lợi, nên ở nhà nghỉ ngơi."
+nhiều mây,buồn,0,"Bạn đang buồn, thời tiết nhiều mây không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+mưa,vui,0,"Dù bạn đang vui, nhưng trời mưa không thuận lợi để đi ra ngoài."
+nhiều mây,rất muốn,0,"Dù bạn rất muốn đi, nhưng trời nhiều mây không phù hợp – nên cân nhắc."
+nắng,rất muốn,1,Trời nắng và bạn rất muốn đi – thật lý tưởng!
+gió to,vui,0,"Dù bạn đang vui, nhưng trời gió to không thuận lợi để đi ra ngoài."
+nhiều mây,chán,0,"Bạn đang chán, thời tiết nhiều mây không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+nắng,chán,0,"Bạn đang chán, thời tiết nắng không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+nắng,không muốn,0,"Bạn không muốn đi và trời nắng, nghỉ ngơi là hợp lý."
+gió to,chán,0,"Bạn đang chán, thời tiết gió to không lý tưởng – hãy nghỉ ngơi và chăm sóc bản thân."
+nắng,mệt,0,"Bạn đang mệt và trời nắng, nên nghỉ ngơi để hồi phục sức khỏe."
+mưa,mệt,0,Bạn đang mệt và trời mưa – ở nhà nghỉ ngơi là lựa chọn tốt nhất.
+gió to,mệt,0,"Thời tiết gió to và bạn đang mệt, hãy ở nhà và chăm sóc bản thân."
+nhiều mây,mệt,0,"Bạn đang mệt và trời nhiều mây, không nên ra ngoài lúc này."
+trời sấm,mệt,0,"Bạn đang mệt và trời sấm, tốt nhất nên ở nhà nghỉ ngơi."
+bão,mệt,0,"Thời tiết đang có bão, bạn lại mệt – không nên ra ngoài."
+trời sấm,không muốn,0,"Bạn không muốn và trời sấm, hãy cứ ở nhà nghỉ ngơi."
+bão,không muốn,0,"Với tâm trạng không muốn và bão ngoài trời, ở nhà là tốt nhất."
+trời sấm,muốn,0,Dù bạn muốn nhưng trời sấm không an toàn để ra ngoài.
+bão,muốn,0,"Bạn có động lực, nhưng bão to không nên mạo hiểm."
+trời sấm,vui,0,Bạn vui nhưng thời tiết sấm sét không phù hợp để ra ngoài.
+bão,vui,0,"Vui vẻ là chưa đủ, bão vẫn là lý do nên ở trong nhà."
+trời sấm,buồn,0,Trời sấm càng khiến nỗi buồn nặng hơn – hãy ở nhà và thư giãn.
+bão,buồn,0,Bạn đang buồn và ngoài trời có bão – hãy tự chăm sóc bản thân ở nhà.
+trời sấm,chán,0,"Bạn chán và trời sấm, nên thử đọc sách hay xem phim ở nhà."
+bão,chán,0,Bão không phải lúc thích hợp để ra ngoài dù bạn đang chán.
+âm u,chán,0,Không khí u ám làm bạn càng thêm chán – hãy thư giãn trong nhà.
+đẹp,rất muốn,1,"Ngày đẹp trời, mọi thứ đều dễ dàng đạt được – bạn thật sự muốn tận hưởng."
+đẹp,không muốn,0,Trời đẹp nhưng tâm trạng lại không như mong đợi – không muốn làm gì cả.
+đẹp,muốn,1,"Với thời tiết đẹp như thế này, mọi thứ dường như trở nên dễ dàng hơn."
+đẹp,thèm,1,"Mong muốn được tận hưởng ngày đẹp trời này, đi dạo hay làm gì đó thú vị."
+đẹp,mong muốn,1,"Trời đẹp, mọi thứ đều khả thi – chỉ muốn làm điều mình thích."
+đẹp,vui,1,"Thời tiết này thật sự làm bạn vui vẻ, mọi thứ trở nên tươi sáng hơn."
+đẹp,buồn,0,Ngày đẹp nhưng bạn lại cảm thấy lạc lõng và buồn bã.
+đẹp,hứng thú,1,Cảm giác thích thú khi nhìn ra ngoài – một ngày tuyệt vời để thử nghiệm điều gì đó mới.
+đẹp,mệt,0,"Dù trời đẹp, nhưng bạn cảm thấy mệt mỏi và chỉ muốn nghỉ ngơi."
+đẹp,khó chịu,0,Trời đẹp nhưng bạn cảm thấy mọi thứ đều không thoải mái – khó chịu quá.
+đẹp,chán,0,"Ngày đẹp, nhưng cảm giác chán nản vẫn không thể thay đổi."
+lạnh,rất muốn,0,Không khí lạnh làm tôi muốn tìm một nơi ấm áp để nghỉ ngơi.
+lạnh,không muốn,1,"Trời lạnh thế này, tôi không muốn ra ngoài chút nào."
+lạnh,muốn,0,Cảm giác lạnh làm tôi muốn tìm một cốc cà phê nóng.
+lạnh,thèm,0,Tôi thèm cảm giác ấm áp của một chiếc chăn mềm mại lúc này.
+lạnh,mong muốn,1,Mong sao có một ngôi nhà ấm áp để tránh cơn lạnh này.
+lạnh,vui,0,Không khí lạnh làm tôi thấy dễ chịu và thư giãn hơn.
+lạnh,buồn,1,Ngày lạnh như này khiến tâm trạng tôi thêm buồn bã.
+lạnh,hứng thú,1,"Lạnh quá, nhưng tôi vẫn muốn đi khám phá những nơi mới!"
+lạnh,mệt,1,"Tôi cảm thấy mệt mỏi hơn trong cái lạnh này, muốn nghỉ ngơi."
+lạnh,khó chịu,0,"Cái lạnh làm tôi cảm thấy khó chịu, tôi cần một nơi ấm áp."
+lạnh,chán,1,Trời lạnh khiến tôi cảm thấy không có động lực làm gì cả.
+mưa phùn,rất muốn,0,Tiếng mưa phùn nhẹ làm tôi rất muốn ở nhà thư giãn.
+mưa phùn,không muốn,1,"Mưa phùn như vậy, tôi không muốn bước ra ngoài chút nào."
+mưa phùn,muốn,0,Mưa phùn làm tôi muốn đi dạo trong một chiếc ô.
+mưa phùn,thèm,1,"Tôi thèm một buổi sáng ấm áp, không phải mưa phùn thế này."
+mưa phùn,mong muốn,0,Mong sao trời ngừng mưa để tôi có thể đi đâu đó.
+mưa phùn,vui,1,Mưa phùn mang đến không khí ẩm ướt nhưng cũng rất thư giãn.
+mưa phùn,buồn,0,Mưa phùn khiến tâm trạng tôi thêm u buồn.
+mưa phùn,hứng thú,0,Mưa phùn không thể ngăn cản tôi khám phá những địa điểm mới.
+mưa phùn,mệt,1,Mưa và cái lạnh làm tôi cảm thấy mệt mỏi.
+mưa phùn,khó chịu,1,Mưa phùn khiến tôi cảm thấy rất khó chịu và không muốn làm gì.
+mưa phùn,chán,0,Ngày mưa phùn khiến tôi cảm thấy chán nản và thiếu năng lượng.
+mưa rào,rất muốn,1,Tiếng mưa rào mạnh mẽ làm tôi rất muốn ngủ một giấc dài.
+mưa rào,không muốn,0,"Mưa rào khiến tôi không muốn ra ngoài, muốn ở trong nhà."
+mưa rào,muốn,1,Mưa rào lớn làm tôi muốn ngồi bên cửa sổ nghe nhạc.
+mưa rào,thèm,1,Tôi thèm có một buổi tối ấm cúng bên gia đình trong khi trời mưa rào.
+mưa rào,mong muốn,0,Mong sao mưa rào nhanh chóng qua đi để tôi có thể đi ra ngoài.
+mưa rào,vui,1,"Cảm giác vui khi nghe tiếng mưa rào rơi, như một bản nhạc thư giãn."
+mưa rào,buồn,0,"Mưa rào tạo nên không khí u ám, làm tôi thêm buồn bã."
+mưa rào,hứng thú,1,"Dù trời mưa rào, tôi vẫn muốn khám phá không gian xung quanh."
+mưa rào,mệt,1,Mưa rào khiến tôi cảm thấy mệt mỏi và chỉ muốn nghỉ ngơi.
+mưa rào,khó chịu,0,"Mưa rào lớn làm tôi cảm thấy khó chịu, không thể ra ngoài."
+mưa rào,chán,1,"Trời mưa rào, tôi cảm thấy chán và không có tâm trạng làm gì."
+nắng gắt,rất muốn,0,Nắng gắt khiến tôi chỉ muốn tìm nơi có bóng mát để nghỉ ngơi.
+nắng gắt,không muốn,1,"Nắng quá gay gắt, tôi không muốn ra ngoài chút nào."
+nắng gắt,muốn,1,Cảm giác nắng gắt làm tôi muốn ra ngoài để tận hưởng không khí.
+nắng gắt,thèm,0,"Tôi thèm một buổi sáng mát mẻ, không phải cái nắng này."
+nắng gắt,mong muốn,1,Mong sao có một làn gió mát thổi qua để xua đi cái nóng này.
+nắng gắt,vui,1,"Dù nắng gắt, tôi vẫn cảm thấy vui khi được ra ngoài tận hưởng ánh sáng mặt trời."
+nắng gắt,buồn,0,Cái nắng gắt làm tôi cảm thấy bức bối và khó chịu.
+nắng gắt,hứng thú,0,"Nắng quá, tôi không cảm thấy hứng thú gì với việc đi ra ngoài."
+nắng gắt,mệt,1,"Nắng gắt làm tôi cảm thấy mệt mỏi, tôi chỉ muốn nghỉ ngơi trong bóng mát."
+nắng gắt,khó chịu,1,"Cái nắng gắt này làm tôi khó chịu, chỉ muốn tránh xa."
+nắng gắt,chán,1,Nắng gay gắt khiến tôi cảm thấy chán nản và thiếu sức sống.
+sương mù,rất muốn,0,"Sương mù dày đặc khiến tôi chỉ muốn ở trong nhà, tránh xa sự mờ mịt này."
+sương mù,không muốn,1,"Sương mù làm tôi không muốn ra ngoài, mọi thứ đều trở nên mờ ảo."
+sương mù,muốn,0,Sương mù khiến tôi chỉ muốn tìm một nơi kín đáo để tránh cái không khí này.
+sương mù,thèm,1,"Tôi thèm một ngày nắng, không phải sương mù mù mịt thế này."
+sương mù,mong muốn,1,"Mong sao sương mù tan đi, để tôi có thể nhìn thấy mọi thứ rõ ràng."
+sương mù,vui,0,"Sương mù khiến tôi không cảm thấy vui vẻ, chỉ muốn được ra ngoài."
+sương mù,buồn,1,"Sương mù dày đặc như bao phủ lên tâm trạng của tôi, khiến tôi buồn hơn."
+sương mù,hứng thú,0,"Không khí sương mù làm tôi mất đi sự hứng thú, tôi chỉ muốn ở yên trong nhà."
+sương mù,mệt,1,"Sương mù làm tôi cảm thấy mệt mỏi, không muốn làm gì cả."
+sương mù,khó chịu,1,"Sương mù khiến tôi cảm thấy khó chịu, mọi thứ xung quanh đều mờ nhạt."
+sương mù,chán,0,Cái sương mù dày đặc làm tôi cảm thấy chán nản và không muốn làm gì.
+nắng nhẹ,rất muốn,1,Cảm giác nắng nhẹ khiến tôi rất muốn ra ngoài và tận hưởng không khí trong lành.
+nắng nhẹ,không muốn,0,"Dù trời nắng nhẹ, nhưng tôi vẫn không muốn ra ngoài hôm nay."
+nắng nhẹ,muốn,1,"Trời nắng nhẹ, tôi muốn đi dạo và tận hưởng ánh sáng mặt trời."
+nắng nhẹ,thèm,0,"Tôi thèm một ngày mát mẻ hơn, không phải nắng nhẹ thế này."
+nắng nhẹ,mong muốn,1,"Mong sao nắng nhẹ này sẽ kéo dài, tôi cảm thấy thật thư giãn."
+nắng nhẹ,vui,1,Cảm giác nắng nhẹ làm tôi cảm thấy vui vẻ và dễ chịu.
+nắng nhẹ,buồn,0,"Nắng nhẹ không làm tôi cảm thấy vui hơn, tôi vẫn thấy buồn."
+nắng nhẹ,hứng thú,1,"Trời nắng nhẹ, tôi cảm thấy hứng thú và muốn ra ngoài khám phá."
+nắng nhẹ,mệt,1,"Mặc dù trời nắng nhẹ, nhưng tôi vẫn cảm thấy mệt mỏi và muốn nghỉ ngơi."
+nắng nhẹ,khó chịu,0,"Nắng nhẹ không làm tôi cảm thấy khó chịu, nhưng tôi không muốn ra ngoài."
+nắng nhẹ,chán,1,Nắng nhẹ làm tôi cảm thấy dễ chịu nhưng cũng không đủ để xua đi sự chán nản.
+trời ẩm ướt,rất muốn,1,Môi trường ẩm ướt khiến bạn tràn đầy năng lượng và muốn thực hiện những dự án sáng tạo.
+trời ẩm ướt,không muốn,0,"Không khí ẩm ướt làm bạn cảm thấy không thoải mái, không muốn ra ngoài."
+trời ẩm ướt,muốn,1,Bạn muốn ra ngoài tận hưởng cảm giác mát mẻ trong không khí ẩm ướt.
+trời ẩm ướt,thèm,0,"Trời ẩm ướt khiến bạn chỉ muốn ở trong nhà, thèm một tách trà nóng."
+trời ẩm ướt,mong muốn,1,Thời tiết ẩm ướt thúc đẩy bạn mong muốn làm việc gì đó sáng tạo.
+trời ẩm ướt,vui,1,Không khí ẩm ướt khiến bạn cảm thấy vui vẻ và dễ chịu.
+trời ẩm ướt,buồn,0,"Trời ẩm ướt khiến tâm trạng của bạn trở nên u sầu, không vui."
+trời ẩm ướt,hứng thú,1,Không khí ẩm ướt tạo cảm giác hứng thú và khiến bạn khám phá những điều mới mẻ.
+trời ẩm ướt,mệt,0,Thời tiết ẩm ướt làm bạn cảm thấy mệt mỏi và thiếu năng lượng.
+trời ẩm ướt,khó chịu,0,"Không khí ẩm ướt khiến bạn cảm thấy khó chịu, thở không dễ dàng."
+trời ẩm ướt,chán,0,"Trời ẩm ướt làm bạn cảm thấy chán nản, thiếu sức sống."
+nắng,kiệt sức,0,"Trời nắng khiến bạn cảm thấy kiệt sức, không muốn làm gì."
+nắng,đầy năng lượng,1,Trời nắng khiến bạn tràn đầy năng lượng và muốn hoạt động cả ngày.
+mưa,kiệt sức,1,Trời mưa khiến bạn cảm thấy kiệt sức và chỉ muốn nằm nghỉ.
+mưa,đầy năng lượng,0,"Trời mưa khiến bạn cảm thấy thiếu năng lượng, không muốn làm gì."
+gió to,kiệt sức,1,Trời gió to khiến bạn cảm thấy kiệt sức vì phải đối mặt với sức gió mạnh.
+gió to,đầy năng lượng,0,Trời gió to khiến bạn cảm thấy khó chịu và thiếu năng lượng.
+trời sấm,kiệt sức,1,"Trời sấm khiến bạn cảm thấy kiệt sức, muốn tránh xa mọi thứ."
+trời sấm,đầy năng lượng,0,Trời sấm làm bạn không có đủ năng lượng để làm gì.
+bão,kiệt sức,1,"Trời bão khiến bạn cảm thấy kiệt sức, không muốn đối phó với bất cứ điều gì."
+bão,đầy năng lượng,0,Trời bão khiến bạn thiếu năng lượng và chỉ muốn trú ẩn.
+mưa phùn,kiệt sức,1,"Trời mưa phùn khiến bạn cảm thấy kiệt sức, muốn ở yên một chỗ."
+mưa phùn,đầy năng lượng,0,Trời mưa phùn khiến bạn không có năng lượng làm việc gì.
+gió to,rất muốn,cân nhắc,
+gió to,thèm,nghỉ ngơi,
+gió to,mong muốn,cân nhắc,
+gió to,hứng thú,cân nhắc,
+gió to,khó chịu,nghỉ ngơi,
+mưa,rất muốn,cân nhắc,
+mưa,thèm,nghỉ ngơi,
+mưa,mong muốn,cân nhắc,
+mưa,hứng thú,cân nhắc,
+mưa,khó chịu,nghỉ ngơi,
+nhiều mây,thèm,nghỉ ngơi,
+nhiều mây,mong muốn,cân nhắc,
+nhiều mây,hứng thú,cân nhắc,
+nhiều mây,khó chịu,nghỉ ngơi,
+nhiều mây,kiệt sức,nghỉ ngơi,
+nhiều mây,đầy năng lượng,nghỉ ngơi,
+nắng,thèm,cân nhắc,
+nắng,mong muốn,đi chơi,
+nắng,hứng thú,đi chơi,
+nắng,khó chịu,cân nhắc,
+trời sấm,rất muốn,cân nhắc,
+trời sấm,thèm,nghỉ ngơi,
+trời sấm,mong muốn,cân nhắc,
+trời sấm,hứng thú,cân nhắc,
+trời sấm,khó chịu,nghỉ ngơi,
+bão,rất muốn,cân nhắc,
+bão,thèm,nghỉ ngơi,
+bão,mong muốn,cân nhắc,
+bão,hứng thú,cân nhắc,
+bão,khó chịu,nghỉ ngơi,
+âm u,buồn,nghỉ ngơi,
+âm u,không muốn,nghỉ ngơi,
+âm u,muốn,cân nhắc,
+âm u,vui,cân nhắc,
+âm u,rất muốn,cân nhắc,
+âm u,mệt,nghỉ ngơi,
+âm u,thèm,nghỉ ngơi,
+âm u,mong muốn,cân nhắc,
+âm u,hứng thú,cân nhắc,
+âm u,khó chịu,nghỉ ngơi,
+âm u,kiệt sức,nghỉ ngơi,
+âm u,đầy năng lượng,nghỉ ngơi,
+đẹp,kiệt sức,cân nhắc,
+đẹp,đầy năng lượng,cân nhắc,
+lạnh,kiệt sức,nghỉ ngơi,
+lạnh,đầy năng lượng,nghỉ ngơi,
+mưa rào,kiệt sức,nghỉ ngơi,
+mưa rào,đầy năng lượng,nghỉ ngơi,
+nắng gắt,kiệt sức,nghỉ ngơi,
+nắng gắt,đầy năng lượng,nghỉ ngơi,
+sương mù,kiệt sức,nghỉ ngơi,
+sương mù,đầy năng lượng,nghỉ ngơi,
+nắng nhẹ,kiệt sức,cân nhắc,
+nắng nhẹ,đầy năng lượng,cân nhắc,
+trời ẩm ướt,kiệt sức,nghỉ ngơi,
+trời ẩm ướt,đầy năng lượng,nghỉ ngơi,
