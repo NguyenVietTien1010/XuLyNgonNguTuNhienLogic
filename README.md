@@ -91,5 +91,5 @@ Sau đó truy cập `http://localhost:8501` trên trình duyệt.
 ## 👤 Tác giả
 
 Nguyễn Viết Tiến  
-Đồ án học phần: Xử lý Ngôn ngữ Tự nhiên & Trí tuệ Nhân tạo
+
 
